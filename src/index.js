@@ -129,7 +129,7 @@ fs.readFile("./data/drivers.txt", "utf-8", (err, data) => {
       return numberOfVowels[index] * 1.5;
     }
     if (street % 2 !== 0) {
-      return numberOfConsonants[index];
+      return numberOfConsonants[index] * 1;
     }
   }); // get the SS of each driver
 
